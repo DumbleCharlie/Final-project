@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEEZ</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="hutchinson.CSS">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+        <ul>
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="Men.html">Men</a></li>
+            <li class="nav-item"><a href="Teens.html">Teens</a></li>
+            <li class="nav-item"><a href="Contact.html">Contact</a></li>
+            
+        </ul>
+    </Nav>
+          
+        <!-- Nav -->
+        <div class="nav container">
+            <a href="#" class="logo">TEEZ</a>
+            <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                background-color:black;
+            
+             }
+             body{
+                display:flex;
+                align-items:center;
+                justify-content: center;
+                height: 100vh;
+                width: 100%;
+             }
+                .main-scroll-div{
+                    width: 90%;
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content:space-between;
+                    border: 2px solid;
+        
+                 }
+                 .cover{
+                    position: relative;
+                    width: 90%;
+                    height: 50%;
+        
+                 }
+                 .cover::before{
+                    position: absolute;
+                    content: "";
+                    left: 0;
+                    top: 0;
+                    z-index: 99;
+                    height: 100%;
+                    width: 150px;
+                    background-image: linear-gradient(90deg, black, transparent );
+                 }
+                 .cover::after{
+                    position: absolute;
+                    content: "";
+                    right: 0;
+                    top: 0;
+                    z-index: 99;
+                    height: 100%;
+                    width: 150px;
+                    background-image: linear-gradient(-90deg, black, transparent );
+                 }
+                 .scroll-images{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: left;
+                    align-items: center;
+                    overflow: auto;
+                    position: relative;
+                    scroll-behavior: smooth;
+                 }
+                 .child{
+                    min-width: 600px;
+                    height: 450px;
+                    margin: 1px 10px;
+                    cursor: pointer;
+                    border: 1px solid white;
+                    overflow: hidden;
+                 }
+                 scroll-images::-webkit-scrollbar{
+                    -webkit-appearance: none;
+        
+                 }
+                 .child-img{
+                    width: 100%;
+                    height: 100%;
+                 }
+                 .icon{
+                    color: rgb(67, 247, 76);
+                    background-color: black;
+                    font-size: 50px;
+                    border: none;
+                    padding: 0px 20px;
+                    cursor: pointer;
+        
+                 }
+                 .icon:hover{
+                   color: yellow;
+                
+        
+                 }
+            </style>
+            </head>
+              
+                <div class="main-scroll-div">
+                    <div> 
+                        <button class="icon" onclick="scroll()"><i class="fas fa-angle-double-left"></i></button>
+                    </div>
+                    <div class="cover">
+                        <div class="scroll-images">
+                            <div class="child"><img class="child-img"src="29_fm.jpg" alt="image"width="300" height="300"></div>
+                            <div class="child"><img class="child-img" src="146_fm.jpg" alt="image"width="300" height="300"></div>
+                            <div class="child"><img class="child-img"src="222_fm.jpg" alt="image"width="300" height="300"></div>
+                            <div class="child"><img  class="child-img"src="1411_fm.jpg" alt="image"width="300" height="300"></div>
+                            <div class="child"><img class="child-img" src="26552_big.jpg" alt="image"width="300" height="300"></div>
+                            <div class="child"><img class="child-img" src="2769_fm.jpg" alt="image" width="300" height="300"></div>
+                                
+                        </div>
+                    </div>
+                    <div>
+                        <button class="icon" onclick="scrollr()"><i class="fas fa-angle-double-right"></i></button>
+                    </div>
+                    
+                
+            
+                
+                </div>
+
+            </style>
+           
+        </section>
+        
+    
+        <!-- Link TO JS -->
+        <script src="js"></script>
+        
+    </body>
+    </html>
+                     </div>
+    </section>
+
+   
+  
+    
+</body>
+</html>

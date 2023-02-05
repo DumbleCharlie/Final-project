@@ -1,0 +1,71 @@
+body {
+  background-color: white;
+}
+    
+  footer{
+    text-align: center;
+  }
+  
+  
+  p {
+    font-size: 20px;
+  }
+  ol li {
+    font-size: 20px;
+  }
+
+        
+
+    
+
+        * {
+            padding:0;
+
+        
+        }
+        nav{
+            background-color:black;
+            height: 80px;
+            width:auto;
+            
+            
+            
+            
+        }
+        nav ul{
+            
+            height: 70px;
+            width: 800px; 
+            margin: 0 auto;
+
+        }
+        nav ul li{
+            list-style-type:none;
+            width: 150px;
+            float: left;
+            text-align: right;
+            font-size: 15px;
+            text-decoration-color: aliceblue;
+            
+            
+           
+        }
+         li a{
+            text-decoration: none;
+            line-height: 50px;
+           
+            padding:0px 12px; 
+
+        }
+        li a:hover {
+            background-color: purple;
+            color: white;}
+
+        img :hover{
+          cursor: pointer;
+        }    
+
+
+      
+        
+           
